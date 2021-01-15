@@ -28,7 +28,6 @@ namespace CrateFile
                     Console.WriteLine(s);
                 }
             }
-            Console.ReadLine();
         }
     }
 }
