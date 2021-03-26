@@ -11,7 +11,7 @@ namespace WebRequest_Demo
             Console.WriteLine("Hello World!");
 
             //建立 WebRequest 並指定目標的 uri
-            WebRequest request = WebRequest.Create("https://coreiotstoragejp.blob.core.windows.net/iotfileblob/165864/announce.json");
+            WebRequest request = WebRequest.Create("https://www.google.com");
 
             //指定 request 使用的 http verb
             request.Method = "GET";
