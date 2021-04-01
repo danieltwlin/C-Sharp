@@ -1,3 +1,7 @@
+using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+
 static readonly HttpClient client = new HttpClient();
 
 static async Task Main()
